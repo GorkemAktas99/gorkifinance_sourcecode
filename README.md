@@ -17,6 +17,10 @@ If the system you are running has Docker installed, you can easily pull the imag
 - "sudo docker container run --network=host gorkemaktas99/gorkifinance:latest"
 - With this code, if the image file is not in your local storage, the image file will be extracted from DockerHub. 
 - Then an info screen will appear, informing you of usage instructions. 
-
+# How to Get Only Image for Docker
+You can use the following code to get it as an image file without running it as a container on your system. 
+- "sudo docker pull gorkemaktas99/gorkifinance:version1.0.0 "
+Or get latest version
+- "sudo docker pull gorkemaktas99/gorkifinance:latest"
 # Important Note 
 The library of mpld3 used for data visualization wants to access your localhost. That's why --network = is set as host. If you do not use it, only 7 days of data will be displayed on your terminal screen. You can examine the source files. You do not have to run any file you do not trust. You are responsible for unexpected events on your network or computer. 
