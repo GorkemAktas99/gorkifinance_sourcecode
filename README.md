@@ -20,6 +20,7 @@ If the system you are running has Docker installed, you can easily pull the imag
 # How to Get Only Image for Docker
 You can use the following code to get it as an image file without running it as a container on your system. 
 - "sudo docker pull gorkemaktas99/gorkifinance:version1.0.0 "
+
 Or get latest version
 - "sudo docker pull gorkemaktas99/gorkifinance:latest"
 # Important Note 
