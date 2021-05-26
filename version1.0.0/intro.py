@@ -1,0 +1,8 @@
+print("Gorki Finance Data Container Version 1.0.0")
+print("Thanks for choosing my container for crypto data")
+print("Please use following commands for your desire")
+print("BTC --> sudo docker container run --network=host gorkemaktas99/gorkifinance btc.py")
+print("ETH --> sudo docker container run --network=host gorkemaktas99/gorkifinance eth.py")
+print("XRP --> sudo docker container run --network=host gorkemaktas99/gorkifinance xrp.py")
+print("XLM --> sudo docker container run --network=host gorkemaktas99/gorkifinance xlm.py")
+print("ADA --> sudo docker container run --network=host gorkemaktas99/gorkifinance ada.py")
